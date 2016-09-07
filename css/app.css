@@ -8,6 +8,17 @@ and open the template in the editor.
     Author     : kimaiga
 */
 
+/*fonts*/
+
+@font-face {
+    font-family: 'Raleway', serif;
+    src: url(..fonts/Raleway-Regular.ttf);
+}
+
+div {
+    font-family: 'Raleway', serif;
+}
+
 html,
 body {
     font-family: 'Raleway', serif;
@@ -24,3 +35,4 @@ h6 {
     text-transform: uppercase;
     font-family: 'Raleway', serif;
 }
+
