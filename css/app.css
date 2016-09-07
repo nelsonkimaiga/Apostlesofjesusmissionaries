@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 7, 2016, 4:22:45 AM
+    Author     : kimaiga
+*/
+
+html,
+body {
+    font-family: 'Raleway', serif;
+    color: #666;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: 'Raleway', serif;
+}
