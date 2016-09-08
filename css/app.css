@@ -12,7 +12,7 @@ and open the template in the editor.
 
 @font-face {
     font-family: 'Raleway', serif;
-    src: url(..fonts/Raleway-Regular.ttf);
+    src: url(fonts/Raleway-Regular.ttf);
 }
 
 div {
