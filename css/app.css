@@ -36,3 +36,57 @@ h6 {
     font-family: 'Raleway', serif;
 }
 
+/************************************************************************************ 
+               Top-nav bar
+************************************************************************************/
+
+.menu > li > a {
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+}
+.top-bar,
+.top-bar ul {
+    background-color: transparent;
+}
+.header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: 0;
+    height: 60px;
+    background-color: transparent;
+    transition: .5s;
+    padding-left: 5%;
+}
+.header.scrolling {
+    background-color: #f6ff00;
+    opacity: 1;
+    transition: .5s;
+    z-index: 10;
+}
+.xx .register-top-right {
+    border: solid 1px #fff;
+    border-radius: 5px;
+    margin-right: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-transition: background-color .5s ease-in-out;
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+}
+.xx .register-top-right:hover {
+    opacity: .5;
+}
+li a:hover {
+    color: #6800ff;
+    border-bottom: 1px solid blue;
+    transition: .5;
+}
+.web_logo {
+    width: 64px;
+}
+.title-bar {
+    z-index: 50;
+}
