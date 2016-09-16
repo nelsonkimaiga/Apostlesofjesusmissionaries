@@ -42,7 +42,7 @@ h6 {
 
 .menu > li > a {
     text-align: center;
-    color: #fff;
+    color: #666;
     font-weight: bolder;
 }
 .top-bar,
@@ -60,7 +60,7 @@ h6 {
     padding-left: 5%;
 }
 .header.scrolling {
-    background-color: blue;
+    background-color: #40537d;
     opacity: 1;
     transition: .5s;
     z-index: 10;
@@ -85,7 +85,7 @@ li a:hover {
     transition: .5;
 }
 .web_logo {
-    width: 64px;
+    width: 130px;
 }
 .title-bar {
     z-index: 50;
