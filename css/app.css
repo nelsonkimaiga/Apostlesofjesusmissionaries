@@ -60,7 +60,7 @@ h6 {
     padding-left: 5%;
 }
 .header.scrolling {
-    background-color: #f6ff00;
+    background-color: skyblue;
     opacity: 1;
     transition: .5s;
     z-index: 10;
@@ -103,7 +103,7 @@ li a:hover {
 .hero p {
     text-align: center;
     color: #2689ca;
-    font-size: 2.5em;
+    font-size: 3.5em;
     line-height: 65px;
 }
 .hero p #font-big {
@@ -140,7 +140,7 @@ li a:hover {
 
 .about {
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: aliceblue;
     max-width: none;
 }
 #about-padding {
@@ -153,6 +153,16 @@ li a:hover {
     margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: #504949;
+}
+
+.vision {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10% 0;
+}
+.vision img {
+    height: 110px;
+    margin-bottom: 10px;
 }
