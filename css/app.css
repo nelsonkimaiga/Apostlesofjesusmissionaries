@@ -60,7 +60,7 @@ h6 {
     padding-left: 5%;
 }
 .header.scrolling {
-    background-color: skyblue;
+    background-color: blue;
     opacity: 1;
     transition: .5s;
     z-index: 10;
