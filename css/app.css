@@ -90,3 +90,69 @@ li a:hover {
 .title-bar {
     z-index: 50;
 }
+
+/************************************************************************************ 
+               HERO
+************************************************************************************/
+
+.hero {
+    background-image: linear-gradient(rgb(255, 255, 0), rgb(255, 255, 0)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGElEQVQIW2NkYGD4z8DAwMgAI0AMdM5/ACRwAgMsRgU3AAAAAElFTkSuQmCC), url(../img/hero3.jpg);
+    height: 100vh;
+    width: 100%;
+}
+.hero p {
+    text-align: center;
+    color: #2689ca;
+    font-size: 3.5em;
+    line-height: 65px;
+}
+.hero p #font-big {
+    font-size: 2em;
+}
+@media screen and (max-width: 439px) {
+    .hero p #font-big {
+        font-size: 2.0em;
+    }
+}
+.hero #register-pad button {
+    border: solid white 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    width: 300px;
+    -webkit-transition: background-color .5s ease-in-out;
+}
+.hero button:hover {
+    border-color: green;
+    background-color: green;
+}
+#hero-text-padding {
+    padding-top: 15%;
+}
+.date {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.about {
+    text-align: center;
+    background-color: #f2f2f2;
+    max-width: none;
+}
+#about-padding {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10% 5%;
+}
+#about-padding p {
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5em;
+    color: #504949;
+}
