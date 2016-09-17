@@ -80,7 +80,7 @@ h6 {
     opacity: .5;
 }
 li a:hover {
-    color: #6800ff;
+    color: #2551bd;
     border-bottom: 1px solid blue;
     transition: .5;
 }
